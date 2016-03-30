@@ -1,0 +1,585 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>@9复杂页面</title>
+<link href="../@9.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="main">
+   <div id="top">
+      <img src="src/logo.png" />
+      <div id="find">
+      <img src="src/icon-search.png" />
+      </div> 
+      <div id="dl">
+      <img src="src/dl.png" />
+      <span>登录</span>
+      </div> 
+   </div>
+   <div id="LR">
+   <div id="left">
+     <div id="head">
+       <img src="src/user.png" />
+       <p class="user">@555</p>
+     </div>
+     <div id="sc">
+       <ul>
+        <li id="sc-li">110收藏&nbsp;        </li>
+       
+        <li>313粉丝</li>
+       </ul>
+     </div>
+     <div id="la">
+     <p>&nbsp;</p>
+     <p class="gr">
+     <a href="#">
+     <img src="src/gr.png" />个人报表</a></p>
+     <p class="wj">
+     <img src="src/fold.png" />
+     <img src="src/file-dark.png" />
+     <a href="#">
+     文件一</a>
+     </p>
+     <p class="wj">
+     <img src="src/wj.png" />
+     
+     <a href="#">
+     文件二</a>
+    </p>
+    <p class="wd">
+    <a href="#">
+    <img src="src/wd.png" />文档1</a>
+    </p>
+    <p class="wd">
+    <a href="#">
+    <img src="src/doc-dark.png" />文档2</a>
+    </p>
+    <p class="wj">
+     <img src="src/fold.png" />
+     <img src="src/file-dark.png" />
+     <a href="#">
+     文件三</a>
+     </div>
+
+
+     <div id="lb">
+       <ul>
+        <li>
+        <img src="src/star.png" />
+        <a href="#">
+        个人收藏
+         </a> 
+        </li>
+        <li>
+        <img src="src/share.png" />
+        <a href="#">
+        我的分享
+        </a>
+         </li>
+        <li>
+        <img src="src/star.png" />
+        <a href="#">
+        图库
+        </a>
+        </li>
+        <li>
+        <img src="src/star.png" />
+        <a href="#">
+        成长记录
+        </a>
+        </li>
+        <li>
+         <img src="src/true.png" />
+         <a href="#">
+         账户信息
+         </a>
+        </li>
+        </ul>
+     </div>
+   </div>
+  <div id="right">
+    <div id="ra">
+    <ul>
+    <li>
+     <a href="#">
+     c站</a></li>
+      <li><a href="#">&nbsp;/&nbsp;</a>
+     <li><a href="#">个人报表</a></li>
+      <li><a href="#">&nbsp;/&nbsp;</a>
+     <li><a href="#">文件一</a></li>
+      <li><a href="#">&nbsp;/&nbsp;</a>
+     <li><span><a href="#">文档一</a></span></li>
+     </ul>
+    </div>
+    <div id="rb">
+       <div id="rb-a">
+        <p class="cx"> 查询项
+         <select name="select" style="width:90px; border:solid #C7C4BE 1px;">
+    <option value="1" selected="selected">第一项</option>
+    <option value="2">第二项</option>
+    <option value="3">第三项</option>
+    </select>
+        </p>
+        <p>&nbsp;</p>
+        <p class="mm">
+        买方
+        <select name="select" style="width:100px; border:solid #C7C4BE 1px; margin-bottom:3px;">
+    <option value="1" selected="selected">小A</option>
+    <option value="2">大A</option>
+    </select>
+    卖方
+    <select name="select" style="width:100px; border:solid #C7C4BE 1px;">
+    <option value="1" selected="selected">小C</option>
+    <option value="2">大C</option>
+    </select>
+        
+         </p>
+         <p class="h">
+         <img src="src/h.png" />
+         </p>
+         <p class="rr">
+           日期
+           <select name="select" style="width:100px; border:solid #C7C4BE 1px; margin-bottom:3px;">
+    <option value="1" selected="selected">2016-4-01</option>
+    <option value="2">2016-4-02</option>
+    </select>
+    人数
+    <select name="select" style="width:60px; border:solid #C7C4BE 1px; margin-bottom:3px;">
+    <option value="1" selected="selected">10</option>
+    <option value="2">11</option>
+    </select>成交项
+         </p>
+         <p class="zc">
+           总耗时
+           <select name="select" style="width:60px; border:solid #C7C4BE 1px; margin-bottom:3px;">
+    <option value="1" selected="selected">8天</option>
+    <option value="2">9天</option>
+    </select>
+    <select name="select" style="width:100px; border:solid #C7C4BE 1px; margin-bottom:7px;">
+    <option value="1" selected="selected">10项</option>
+    <option value="2">11项</option>
+    </select>
+         </p>
+         <input type="button"
+         value="搜索" id="ss" />
+       </div>
+       <div id="rb-b">
+        
+         <p class="b-a" >
+        <img src="src/a-a.png" />
+         </p>
+         <ul>
+         <li class="b-b" >
+         <a href="#">
+         <span>10:00am&nbsp;&nbsp;&nbsp;&nbsp;</span>
+         </a>
+         <em>&yen; </em>         <strong style="color:#FF5A00; font-size:24px;">1200</strong>
+         </li>
+         <li class="b-b" >
+         <a href="#">
+         <span>11:00am&nbsp;&nbsp;&nbsp;&nbsp;</span>
+         </a>
+         <em>&yen; </em>         <strong style="color:#FF5A00; font-size:24px;">1300</strong>
+         </li>
+         <li class="b-b" >
+         <a href="#">
+         <span>12:00am&nbsp;&nbsp;&nbsp;&nbsp;</span>
+         </a>
+         <em>&yen; </em>         <strong style="color:#FF5A00; font-size:24px;">1200</strong>
+         </li>
+         <li class="b-b" >
+         <a href="#">
+         <span>01:00am&nbsp;&nbsp;&nbsp;&nbsp;</span>
+         </a>
+         <em>&yen; </em>         <strong style="color:#FF5A00; font-size:24px;">1400</strong>
+         </li>
+         
+         <li class="b-b" >
+         <a href="#">
+         <span>02:00am&nbsp;&nbsp;&nbsp;&nbsp;</span>
+         </a>
+         <em>&yen; </em>         <strong style="color:#FF5A00; font-size:24px;">1500</strong>
+         </li>
+        <li class="b-b" >
+         <a href="#">
+         <span>03:00am&nbsp;&nbsp;&nbsp;&nbsp;</span>
+         </a>
+         <em>&yen; </em>         <strong style="color:#FF5A00; font-size:24px;">1800</strong>
+         </li>
+         </ul>
+         <p class="b-a" >
+         <img src="src/aa.png" />
+         </p>
+         <p class="b-c" >
+         <img src="src/lscx.png" /> <span style="margin-left:60px; display:block; margin-top:-25px; font-size:14px;">历史查询</span>
+         </p>
+         </div>
+        <p class="tj">2016年4月份统计</p>
+        <div id="rb-ba">
+         <ul>
+         <li id="ba-a">
+         <p>133311</p>
+         <p><span>成交量</span></p>
+         <div id="green"></div>
+         </li>
+         <li id="ba-b">
+         <p>133311</p>
+         <p><span>成交量</span></p>
+         <div id="blue"></div>
+         </li>
+         <li id="ba-c">
+         <p>133311</p>
+         <p><span>成交量</span></p>
+         <div id="red"></div>
+         </li>
+         <li id="ba-d">
+         <p>133311</p>
+         <p><span>成交量</span></p>
+         <div id="yellow"></div>
+         </li>
+         </ul> 
+       
+       </div>
+       <div id="rb-c">
+       <p class="item">第一组项目</p>
+       <div id="frist">
+       <ul>
+         <li class="xmy">
+          <a href="#">项目一</a>
+         </li>
+         <li><a href="#">项目二</a>
+         </li>
+         <li><a href="#">项目三</a>
+         </li>
+         <li><a href="#">项目四</a>
+         </li>
+         <li><a href="#">项目五</a>
+         </li>
+       </ul></div>
+       <div id="tab">
+       <table width="400" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="95" height="30">购买材料一</td>
+    <td width="95">购买材料一</td>
+    <td width="95">购买材料一</td>
+    <td width="95">购买材料一</td>
+  </tr>
+  <tr>
+    <td height="30">购买材料二</td>
+    <td>购买材料二</td>
+    <td>购买材料二</td>
+    <td>购买材料二</td>
+  </tr>
+  <tr>
+    <td height="30">购买材料三</td>
+    <td>购买材料三</td>
+    <td>购买材料三</td>
+    <td>购买材料三</td>
+  </tr>
+  <tr>
+    <td height="30">购买材料四</td>
+    <td>购买材料四</td>
+    <td>购买材料四</td>
+    <td>购买材料四</td>
+  </tr>
+  <tr>
+    <td height="30">购买材料五</td>
+    <td>购买材料五</td>
+    <td>购买材料五</td>
+    <td>购买材料五</td>
+  </tr>
+  <tr>
+    <td height="30">购买材料六</td>
+    <td>购买材料六</td>
+    <td>购买材料六</td>
+    <td>购买材料六</td>
+  </tr>
+</table></div>
+       </div>
+       <div id="rb-d">
+       <p class="itemb">第一组项目</p>
+        <div id="d-a">
+         <p>标题</p>
+         <p class="list">
+         项目列表三</p>
+         <p style="margin-top:5px;">         价格</p>
+         <p class="price">&yen;158
+         </p>
+         <p class="fzr"  >
+         
+                  负责人</p>
+         <p class="a">小A
+         </p>
+         <p style=" line-height:20px; font-size:13px;">详细描述</p>
+         <p  class="dec">该项目目前负责人......</p>
+         <input type="checkbox" checked="checked" style="margin-top:7px;"/>
+         <span style="font-size:12px; margin-left:5px;">
+         遵守保密协议</span>
+         <input type="button" value="搜索" id="sou" />
+        </div>
+       </div>
+       <div id="rb-e">
+       <p class="rl">
+  <span style="margin-left:20px; color:#BAB5AF;">日历</span>
+  </p>
+  <p class="year">
+   <select name="select" style="width:65px;">
+     <option value="1">2016年</option>
+     <option value="2">2017年</option>
+   </select>
+  </p>
+  <p class="mon">
+   <select name="select" style="width:100px;">
+     <option value="1">4月</option>
+     <option value="2">5月</option>
+    </select>
+  </p>
+  <p class="day">
+   <select name="select" style="width:80px;">
+     <option value="1">标注日期</option>
+     <option value="1">标注日期</option>
+    </select>
+  </p>
+  <p class="back">返回今天</p>
+  <div id="week">
+    <ul>
+      <li>一</li>
+      <li>二</li>
+      <li>三</li>
+      <li>四</li>
+      <li>五</li>
+      <li>六</li>
+      <li>日</li>
+    </ul>
+  </div>
+  <div id="days">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li>1
+      <p class="jie">愚人节</p>
+      </li>
+      <li><span>2</span>
+      <p>廿五</p>
+      </li>
+      <li><span>3</span>
+      <p>廿六</p>
+      </li>
+      <li>4
+      <p>廿七</p>
+      </li>
+      <li>5
+      <p class="jie">清明节</p>
+      </li>
+      <li>6
+      <p>廿九</p>
+      </li>
+      <li>7
+      <p>三月</p>
+      </li>
+      <li>8
+      <p>初二</p>
+      </li>
+      
+      <li>
+      <span>9</span>
+      <p class="jiu">初三</p>
+      </li>
+      <li><span>10</span>
+      <p>初四</p>
+      </li>
+      <li>11
+      <p>初五</p>
+      </li>
+      <li>12
+      <p class="jiu">初六</p>
+      </li>
+      <li>13
+      <p>初七</p>
+      </li>
+      <li>14
+      <p>初八</p>
+      </li>
+      <li>15
+      <p>初九</p>
+      </li>
+      <li><span>16</span>
+      <p>初十</p>
+      </li>
+      <li><span>17</span>
+      <p>十一</p>
+      </li>
+      <li>18
+      <p>十二</p>
+      </li>
+      <li>19
+      <p class="jiu">十三</p>
+      </li>
+      <li>20
+      <p>十四</p>
+      </li>
+      <li>21
+      <p>十五</p>
+      </li>
+      <li>22
+      <p>十六</p>
+      </li>
+      <li><span>23</span>
+      <p>十七</p>
+      </li>
+      <li><span>24</span>
+      <p>十八</p>
+      </li>
+      <li>25
+      <p>十九</p>
+      </li>
+      <li>26
+      <p>廿十</p>
+      </li>
+      <li>27
+      <p>廿一</p>
+      </li>
+      <li>28
+      <p>廿二</p>
+      </li>
+      <li>29
+      <p>廿三</p>
+      </li>
+      <li><span>30</span>
+      <p>廿四</p>
+      </li>
+    </ul>
+  </div>
+       </div>
+       <div id="rb-f">
+       <p class="item">汽车行业品牌榜
+       </p>
+       <table width="450" border="0" cellspacing="0" cellpadding="0" id="tb">
+  <tr>
+    <td width="72" height="30">排名</td>
+    <td width="89">品牌</td>
+    <td width="281" class="num">
+    <span style="line-height:25px;">搜索指数</span></td>
+  </tr>
+  <tr>
+    <td height="28">1</td>
+    <td>大众</td>
+    <td class="num">
+    <div id="div">
+    48912001</div>
+    <p class="bfb">
+    <em class="num1"></em>
+    </p>
+    
+    </td>
+  </tr>
+  <tr>
+    <td height="28">2</td>
+    <td>丰田</td>
+    <td class="num">
+    <div id="div">29307333
+    </div>
+    <p class="bfb">
+    <em class="num2"></em>
+    </p>
+    </td>
+  </tr>
+  <tr>
+    <td height="28">3</td>
+    <td>奥迪</td>
+    <td class="num">
+    <div id="div">23139070
+    </div>
+    <p class="bfb">
+    <em class="num3"></em>
+    </p>
+    </td>
+  </tr>
+  <tr>
+    <td height="28">4</td>
+    <td>本田</td>
+    <td class="num">
+    <div id="div">22885564
+    </div>
+    <p class="bfb">
+    <em class="num4"></em>
+    </p></td>
+  </tr>
+  <tr>
+    <td height="28">5</td>
+    <td>福特</td>
+    <td class="num">
+    <div id="div">22324792
+    </div>
+    <p class="bfb">
+    <em class="num5"></em>
+    </p></td>
+  </tr>
+  <tr>
+    <td height="28">6</td>
+    <td>宝马</td>
+    <td class="num">
+    <div id="div">21440777
+    </div>
+    <p class="bfb">
+    <em class="num6"></em>
+    </p></td>
+  </tr>
+  <tr>
+    <td height="28">7</td>
+    <td>现代</td>
+    <td class="num">
+    <div id="div">20114969
+    </div>
+    <p class="bfb">
+    <em class="num7"></em>
+    </p></td>
+  </tr>
+  <tr>
+    <td height="28">8</td>
+    <td>起亚</td>
+    <td class="num">
+    <div id="div">19251680
+    </div>
+    <p class="bfb">
+    <em class="num8"></em>
+    </p></td>
+  </tr>
+  <tr>
+    <td height="28">9</td>
+    <td>奔驰 </td>
+    <td class="num">
+    <div id="div">19172837
+    </div>
+    <p class="bfb">
+    <em class="num9"></em>
+    </p></td>
+  </tr>
+  <tr>
+    <td height="28" style="border-bottom:solid #FFF 1px;">
+    10</td>
+    <td style="border-bottom:solid #FFF 1px;">
+    别克</td>
+    <td class="num">
+    <div id="div">18544027
+    </div>
+    <p class="bfb">
+    <em class="num10"></em>
+    </p></td>
+  </tr>
+</table>
+
+       </div>
+    </div>
+  	</div>
+  
+  
+   </div>
+</div>
+
+</body>
+</html>
