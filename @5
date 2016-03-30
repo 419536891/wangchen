@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+*{
+	margin:0px;
+	padding:0px;
+	font-family:"楷体";
+	
+	}
+body
+    { background:#DEDEDE;}
+#main 
+   {
+	height:auto;
+	width: 100%;
+	}	
+#top
+   {
+	   width:100%;
+	   background:#000;
+	   height:80px;
+	   /*float:left;*/
+	   line-height:80px;
+	   font-size:14px;
+	  
+   }
+#top img
+    {
+		float:left;
+		}
+
+#top ul li 
+   {
+	   float:right;
+	   color:#FFF;
+	   list-style-type:none;
+	   display:block;
+	   margin-right:15px;
+	   
+    }
+#top ul li a
+    {
+		text-decoration:none;
+		color:#FFF;
+	}
+#top ul li span a
+    {  
+		color:#CCC;
+	    text-decoration:none;
+	}
+#LR
+   {
+	   clear:both;
+	   position:relative;*/
+	   height:auto;
+	    
+	   
+	   }
+#L{
+	float:left;
+	width:100%;
+	margin-left:-370px;
+	
+	}
+#le{ margin-left:370px;
+     }
+
+#left
+    {
+	height:auto;
+	padding-top:30px;
+	padding-left:20px;
+	margin:20px;
+	background:#FFF;
+	}
+ #left,#la,#lb,#lc,#right
+    {
+	border-right:solid #ccc 3px;
+	border-top:solid #ccc 1px;
+	border-left:solid #ccc 1px;
+	border-bottom:solid #ccc 1px;
+	}
+ #left,#la,#lb p{
+	text-indent: 2em;
+	line-height:25px;
+	font-size:18px;
+	
+	
+	}
+#la
+   {
+	   
+	   height:auto;
+	   clear:both;
+	   margin:20px;
+	   padding-top:35px;
+	   padding-left:20px;
+	   background:#FFF;
+	   }
+#left img
+   {border:solid #CCC 1px;
+    display:block;
+	width:300px;
+	height:240px;
+	}
+#la ul li
+   {
+	   list-style-type:none;
+	   display:block;
+	   font-size:18px;
+	   margin-left:40px;
+	   margin-top:15px;
+	   
+   }
+#lb
+{      
+       
+	   height:auto;
+	   clear:both;
+	   margin:20px;
+	   padding-top:35px;
+	   padding-left:20px;
+	   float:left;
+	   background:#FFF;
+	}
+#lb ul li
+    {
+		list-style-type:none;
+		margin:15px;
+		float:left;
+		display:block;
+		width:125px;
+		height:128px;
+		border:solid #CCC 1px;
+		text-align:center;
+		line-height:40px;
+		}
+#lc
+     {
+		 clear:both;
+	     height:auto;
+		 padding-top:30px;
+	     padding-left:20px;
+	     margin:20px;
+	     /*border:solid #CCC 1px;*/
+		 background:#FFF;
+	 }
+#lc ol li
+     {
+		 
+		 margin-left:40px;
+		 font-size:18px;
+		 }
+table{ border:solid #CCC 1px;
+       margin-left:-10px;
+      }
+#right
+   {
+	   width:340px;
+	   height:520px;
+	   float:right;
+	   margin-top:10px;
+	   
+	   margin:20px 20px 20px 0px;
+	   background:#FFF;
+	}
+#de
+    {
+		margin-left:80px;
+	}
+#btn
+    {
+		width:290px;
+		height:40px;
+		background-color:#00F;
+		border-radius:10px;
+		margin-left:25px;
+		margin-top:20px;
+		text-align:center;
+	}
+#foot
+    {  
+	   clear:both;
+	   width:100%;
+	   background:#000;
+	   height:80px;
+	   float:left;
+	   line-height:80px;
+	   font-size:14px;
+	   color:#FFF;
+	   text-align:center;
+	}
+	@media screen and (max-width:1000px){
+		#left img,#la img{
+			width:60%;
+			height:auto;	
+		}	
+	}
+</style>
+</head>
+
+<body>
+<div id="main">
+ <div id="top">
+  <img src="img/logo_redBlue.png" width="210" height="80" />
+  <ul>
+    <li><span><a href="#">导航链接四</a></span></li>
+    <li><a href="#">导航链接三</a></li>
+    <li><a href="#">导航链接二</a></li>
+    <li><a href="#">导航链接一</a></li>
+  </ul>
+ </div>
+ 
+ <div id="LR">
+  <div id="L">
+  <div id="le">
+   <div id="left">
+ <h1>百度一下，你就知道</h1>
+ <p>&nbsp;</p>
+ <h2>百度一下，你就知道</h2>
+ <p>&nbsp;</p>
+ <span>您好，我是百度一下，你就知道</span>
+ <p>&nbsp;</p>
+ <p class="ap">您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!换行了<br/>您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!换行了<br/>
+ 您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!
+ <a href="http//:ife.baodu.com">这里有一个链接
+ </a>您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!
+ </p>
+ <img src="img/1.1.png"  width="300" height="240" />
+ <p class="bp">您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!换行了
+ 您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!<strong>这里有个粗体字</strong>您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!
+ <a href="http//:ife.baodu.com">这里有一个链接点击打开新窗口链接到</a>
+ 您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!
+ </p>
+   </div>
+   <div id="la">
+ <h1>让我们百度一下，你就知道</h1>
+ <p>&nbsp;</p>
+ <h2>百度一下，你就知道</h2>
+ <p>&nbsp;</p>
+ <span>您好，我是百度一下，你就知道</span>
+ <p>&nbsp;</p>
+ <p class="ap">您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!换行了<br/>您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!换行了<br/>
+ 您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!
+ <a href="http//:ife.baodu.com">这里有一个链接
+ </a>您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!您好，我是百度一下，你就知道!
+ </p>
+
+ <img src="img/1.1.png" width="300" height="240" />
+ <ul>
+   
+    <li>列表项目一</li>
+    <li>列表项目二</li>
+    <li>列表项目三</li>
+  </ul>
+   </div>
+   <div id="lb">
+  <h1>图片</h1>
+  <ul>
+  
+    <li>好看的图片<img src="img/1.1.png"  width="100" height="80" /></li>
+    <li>好看的图片<img src="img/1.1.png"  width="100" height="80" /></li>
+    <li>好看的图片<img src="img/1.1.png"  width="100" height="80" /></li>
+    <li>好看的图片<img src="img/1.1.png"  width="100" height="80" /></li>
+    <li>好看的图片<img src="img/1.1.png"  width="100" height="80" /></li>
+  <li>好看的图片<img src="img/1.1.png"  width="100" height="80" /></li>
+  <li>好看的图片<img src="img/1.1.png"  width="100" height="80" /></li>
+  <li>好看的图片<img src="img/1.1.png"  width="100" height="80" /></li>
+  <li>好看的图片<img src="img/1.1.png"  width="100" height="80" /></li>
+  <li>好看的图片<img src="img/1.1.png"  width="100" height="80" /></li>
+  </ul>
+   </div>
+   <div id="lc">
+ <h1>最后百度一下，问题解决了</h1>
+ <p>&nbsp;</p>
+ <h2>百度一下，你就知道</h2>
+ <p>&nbsp;</p>
+ <span>您好，我是百度一下，你就知道</span>
+ <p>&nbsp;</p>
+ <ol>
+   <li>排名1</li>
+   <li>排名2</li>
+   <li>排名3</li>
+ </ol>
+ 
+   <table width="100%" border="1" cellspacing="0" cellpadding="0" style=" margin-top:40px; margin-right:10px;">
+   <tr style="background:#000; color:#FFF; font-weight:bold; font-size:14px; ">
+     <td width="350" height="20">&nbsp;表头</td>
+     <td width="350">&nbsp;表头</td>
+     <td width="115">&nbsp;表头</td>
+   </tr>
+   <tr height="auto">
+     <td>&nbsp;百度一下</td>
+     <td>&nbsp;百度一下</td>
+     <td>&nbsp;<a href="#">百度</a></td>
+   </tr>
+   <tr height="20">
+     <td>&nbsp;百度一下</td>
+     <td>&nbsp;百度一下</td>
+     <td>&nbsp;<a href="#">百度</a></td>   
+     </tr>
+   <tr height="20">
+     <td>&nbsp;百度一下</td>
+     <td>&nbsp;百度一下</td>
+     <td>&nbsp;<a href="#">百度</a></td>
+   </tr>
+   <tr>
+     <td>&nbsp;百度一下</td>
+     <td>&nbsp;百度一下</td>
+     <td>&nbsp;<a href="#">百度</a></td>
+   </tr>
+   <tr>
+     <td colspan="3" height="20">&nbsp;总计<span style="margin-left:360px;">1000</span></td>
+     
+     
+   </tr>
+ </table>
+   </div></div>
+ </div>
+ <div id="right">
+ <p>&nbsp;</p>
+ <p>&nbsp;</p>
+   <h2 style=" display:block; width:360px;border-left:solid #999 3px; margin-left:5px; font-size:18px;">&nbsp;这里以后是一个侧栏，这是侧栏标题</h2>
+   <p>&nbsp;</p>
+   <p>&nbsp;&nbsp;请输入邮箱地址
+     <input type="text"  value="这是一个文本输入框" />
+   </p>
+   <p>&nbsp;
+   <span style="font-size:14px; margin-left:110px; color:#999; ">
+   邮箱地址请按要求格式输入</span></p>
+  
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请输入密码
+     <input type="password" value="........" />
+   </p>
+   <p>&nbsp;</p>
+   <p>&nbsp;&nbsp;请重新输入密码
+     <input type="password" value="........" />
+   </p>
+   <p>&nbsp;
+   <span style="font-size:14px; margin-left:110px; color:#999; ">
+   密码请为6-16位英文数字</span></p>
+   
+    <p>&nbsp;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性别
+    <input type="radio"  checked="true" name="sex"  />男
+    <input type="radio" name="sex"/>女
+    </p>
+    <p>&nbsp;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;城市
+    <select name="select" style="background-color:#09F;">
+    <option value="1" selected="selected">北京</option>
+    <option value="2">上海</option>
+    <option value="3">南京</option>
+    <option value="4">芜湖</option>
+    <option value="5">合肥</option>
+    </select>
+    <p>&nbsp;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;城市
+    <input type="checkbox" name="like" />运动
+    <input type="checkbox" name="like" />艺术
+    <input type="checkbox" name="like" />科学
+    <p>&nbsp;</p> 
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人描述:</p>
+
+	<textarea id="de" rows="6" cols="30" required="true" placeholder="这是一个多行输入框，输入您的个人描述"></textarea> 
+    <input type="button" id="btn" value="确认提交" />    
+ </div>
+ </div>
+ 
+ 
+ <div id="foot">
+ 版权所有&copy;
+ </div>
+</div>
+</body>
+</html>
